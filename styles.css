@@ -35,6 +35,7 @@ h1 {
 
 }
 .birthday {
+    position: relative;
     font-size: 30px;
     background-color: transparent;
     color: white;
@@ -43,6 +44,21 @@ h1 {
     margin-top: 5%;
     cursor: pointer;
     font-family: 'Charmonman', cursive;
+    padding-right: 19px;
+    padding-left: 19px;
+
+}
+.christmas {
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    margin-top: 5%;
+    cursor: pointer;
+    font-family: 'Charmonman', cursive;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 button:focus {

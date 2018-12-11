@@ -46,6 +46,46 @@ function newYear(){
     timeStamp = endDate.getTime();
     document.body.style.backgroundImage = "url('./newYears.jpg')"
     document.getElementById("title").innerHTML = "Countdown to New Years"
+    document.body.style.color = 'white'
+    document.querySelector('.newYears').style.color = 'white'
+    document.querySelector('.newYears').style.backgroundColor = 'transparent'
+    document.querySelector('.newYears').style.opacity = '0.7'
+    document.querySelector('.birthday').style.color = 'white'
+    document.querySelector('.birthday').style.backgroundColor = 'transparent'
+    document.querySelector('.birthday').style.opacity = '0.7'
+    document.querySelector('.christmas').style.color = 'white'
+    document.querySelector('.christmas').style.backgroundColor = 'transparent'
+    document.querySelector('.christmas').style.opacity = '0.7'
+    document.getElementById('countdown').style.border = 'none'
+    document.getElementById('countdown').style.borderRadius = '20px'
+    document.getElementById('countdown').style.position = 'relative'
+    document.getElementById('countdown').style.backgroundColor = 'transparent'
+    document.getElementById('countdown').style.opacity = '0.7'
+    document.getElementById('countdown').style.marginLeft = '200px'
+    document.getElementById('countdown').style.marginRight = '200px'
+}
+function christmas(){
+    endDate = new Date("December 25, 2018")
+    timeStamp = endDate.getTime();
+    document.body.style.backgroundImage = "url('./xmas2.jpg')"
+    document.getElementById("title").innerHTML = "Countdown to Christmas"
+    document.body.style.color = 'white'
+    document.querySelector('.newYears').style.color = 'white'
+    document.querySelector('.newYears').style.backgroundColor = 'transparent'
+    document.querySelector('.newYears').style.opacity = '0.7'
+    document.querySelector('.birthday').style.color = 'white'
+    document.querySelector('.birthday').style.backgroundColor = 'transparent'
+    document.querySelector('.birthday').style.opacity = '0.7'
+    document.querySelector('.christmas').style.color = 'white'
+    document.querySelector('.christmas').style.backgroundColor = 'transparent'
+    document.querySelector('.christmas').style.opacity = '0.7'
+    document.getElementById('countdown').style.border = 'none'
+    document.getElementById('countdown').style.borderRadius = '20px'
+    document.getElementById('countdown').style.position = 'relative'
+    document.getElementById('countdown').style.backgroundColor = 'transparent'
+    document.getElementById('countdown').style.opacity = '0.7'
+    document.getElementById('countdown').style.marginLeft = '200px'
+    document.getElementById('countdown').style.marginRight = '200px'
 }
 function birthday(){
     var bday = prompt ("When is your next birthday? ")
@@ -60,6 +100,9 @@ function birthday(){
     document.querySelector('.birthday').style.color = 'black'
     document.querySelector('.birthday').style.backgroundColor = 'white'
     document.querySelector('.birthday').style.opacity = '0.7'
+    document.querySelector('.christmas').style.color = 'black'
+    document.querySelector('.christmas').style.backgroundColor = 'white'
+    document.querySelector('.christmas').style.opacity = '0.7'
     document.getElementById('countdown').style.border = '1px solid black'
     document.getElementById('countdown').style.borderRadius = '20px'
     document.getElementById('countdown').style.position = 'relative'
